@@ -98,7 +98,8 @@ export default class Collapsible extends Component {
     if (collapsed) {
       this._transitionToHeight(this.props.collapsedHeight);
     } else if (!this.contentHandle) {
-      if (this.state.measured) {
+   //   if (this.state.measured) {
+      if ( true ) {
         this._transitionToHeight(this.state.contentHeight);
       }
       return;
